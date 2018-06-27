@@ -20,10 +20,6 @@ export class BmiCalculatorPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad BmiCalculatorPage');
-  }
-
   calculateBMI(){
     this.navCtrl.push('BmiResultPage',{height: this.height,weight: this.weight})
   }

@@ -14,6 +14,11 @@
 
 
 <ion-content padding>
-  <h1>Your BMI is {{result}}  </h1>
-  <h2>This is classify as : {{classify}}</h2>
+  <ion-card>
+    <ion-card-content>
+      <ion-label>BMIเท่ากับ {{bmi.BMI}} </ion-label>
+      <h2>คุณอยู่ในเกณฑ์ {{bmi.classification}}</h2>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
